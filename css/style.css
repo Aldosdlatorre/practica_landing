@@ -93,6 +93,7 @@ iframe{
 
 
 .left{
+    padding: 0 5rem;
     grid-row: 2 / 3;
     display: flex;
     flex-direction: column;
@@ -115,6 +116,7 @@ iframe{
     margin-top: 3rem;
     padding: 1rem;
     border-radius: 20px;
+    
 }
 
 .btn__link{
