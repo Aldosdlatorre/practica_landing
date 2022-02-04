@@ -43,6 +43,7 @@ nav div span{
     font-weight: bold;
     padding: 1rem 5rem;
     color: #fff;
+    border-radius: 10px;
 }
 
 ul{
