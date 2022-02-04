@@ -149,6 +149,10 @@ position: absolute;
     gap: 1rem;
 }
 
+@media (min-width: 768px) {
+    
+}
+
 
 .card__logo{
     width: 10rem;
