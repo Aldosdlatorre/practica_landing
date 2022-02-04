@@ -21,7 +21,9 @@ nav{
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
 
 @media (min-width: 1052px) {
     nav{
@@ -58,20 +60,41 @@ ul{
 }
 
 ul li{
-    background-color: #fff;
-    margin: 0 1rem;
-    padding: .5rem 1.5rem;
-    border-radius: 15px;
-    background-color: #fff;
+     background-color: #fff;
+     padding: .5rem 1.5rem;
+     margin: 10px 0 0 0;
+     border-radius: 15px;
 }
+
+@media (min-width: 1052px) {
+    ul li{
+        margin: 0 1rem;
+    }
+}
+
 
 .sections{
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     margin-top: 3rem;
 }
+
 .right{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
     grid-row: 1 / 2;
+}
+
+.responsive__iframe{
+    position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 1052px) {
@@ -90,28 +113,30 @@ ul li{
     padding: 10rem 0; 
 }
 
-.left p:first-child{
-    padding-bottom: 2rem;
+.left p{
+    font-size: 1.2rem;
 }
-
-
-.right iframe{
-    border-radius: 20px;
-}
-
-.bt{
-    background: linear-gradient(90deg, rgba(142,13,106,1) 0%, rgba(220,38,112,1) 50%);
-    padding: 1.5rem;
-    border-radius: 20px;
-    max-width: 30rem;
-    margin: 3rem auto;
-}
-
-
 .cards{
     max-width: 1500px;
     height: 20rem;
     background-color: yellow;
     margin: 0 auto;
+}
+
+.btn{
+    background: linear-gradient(90deg, rgba(142,13,106,1) 0%, rgba(220,38,112,1) 50%);
+    max-width: 20rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.btn__link{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
 }
 
