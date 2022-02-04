@@ -87,7 +87,8 @@ iframe{
 .first__section{
     padding: 1.5rem;
     margin: 0 auto;
-    background-image: linear-gradient(to top right, #fff 0% 50%, rgba(220,38,112,1) 50% 100%);
+    background-image: linear-gradient(to top right, #fff 0% 50%, rgba(142,13,106,1) 10%, rgba(220,38,112,1) 80%);
+    /* background: linear-gradient(90deg, rgba(142,13,106,1) 0%, rgba(220,38,112,1) 50%); */
 }
 
 
